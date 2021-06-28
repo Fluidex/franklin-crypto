@@ -47,9 +47,8 @@ pub mod rescue;
 #[cfg(feature = "plonk")]
 pub mod plonk;
 
-extern crate serde;
 #[macro_use]
-extern crate serde_derive;
+extern crate serde;
 
 pub fn log2_floor(num: usize) -> u32 {
     assert!(num > 0);
